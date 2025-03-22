@@ -6,8 +6,8 @@ from tqdm import tqdm
 
 BASE_URL = "http://35.200.185.69:8000"
 # VERSIONS = ["/v1"]
-ENDPOINT = "/v1/autocomplete?query="
-CHARS= "!@$%^*()_~{}:|<>?|\/.,\';][=-`]"
+ENDPOINT = "/v3/autocomplete?query="
+CHARS= "+#&*_"
 
 all_names=[]
 version_names=[]
