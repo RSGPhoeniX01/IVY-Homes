@@ -6,8 +6,8 @@ from tqdm import tqdm
 
 BASE_URL = "http://35.200.185.69:8000"
 # VERSIONS = ["/v1"]
-ENDPOINT = "/v3/autocomplete?query="
-CHARS= "+#&*_"
+ENDPOINT = "/v3/autocomplete?query=<string>"
+# CHARS= "+#&*_"
 
 all_names=[]
 version_names=[]
@@ -42,11 +42,11 @@ version_names=[]
     
 # print(cnt,cnt2)
 
-for c in CHARS:
-    url=BASE_URL+ENDPOINT+c
-    response=requests.get(url)
-    data=response.json()
-    print(data)
+# for c in CHARS:
+url=BASE_URL+ENDPOINT
+response=requests.get(url)
+data=response.json()
+print(data)
 
 # for vname in version_names:
 #     print(len(vname))

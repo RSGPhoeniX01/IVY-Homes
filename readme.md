@@ -70,15 +70,16 @@ http://35.200.185.69:8000/v3/autocomplete?query=<string>
 ## Results
 **v1:**
 - Names found: 18042
-- Searches made:
+- Searches made: 31019
 
 **v2:**
 - Names found: 13648
-- Searches made:
+- Searches made: 15661
 
 **v3:**
 - Names found: 11165
-- Searches made:
+- Searches made: 8931
 
 Total names found: 42855
 
+---------------------------------------------------------------------------------------
